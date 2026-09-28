@@ -1,0 +1,19 @@
+# Project Statement: Prime-Based Cryptographic Engine
+
+## Problem Statement
+you have recently learned basic mathematical algorithms and programming logic, such as finding prime numbers, calculating the Greatest Common Divisor (GCD), and using loops. However, you wanted to understand how these concepts are actually used to solve real-world problems. By using these fundamental Python concepts,create a working text encryption tool to demonstrate how basic math and simple code form the foundation of data security.
+
+## Scope of the Project
+This project is a menu-driven Python program built to run in the terminal. It takes regular text messages, turns the letters into numbers using standard ASCII conversion, and scrambles them using math formulas (modular exponentiation). The scope covers generating public and private keys, encrypting messages into number lists, and decrypting them back to readable text[cite: 1]. The project is organized into a modular package structure with built-in validation tests. It operates entirely locally using standard Python functions, without relying on external downloaded libraries. 
+
+## Target Users
+* Students like me who want to see how basic algorithms can be combined to build a functional, real-world application[cite: 1].
+* Anyone who wants a simple, offline way to hide and decode secret messages using a command-line menu[cite: 1].
+* My instructors, to evaluate my understanding of prime numbers, modular code structure, and basic data types in a practical setting[cite: 1].
+
+## High-Level Features
+* **Custom Key Generation:** The program automatically calculates secure public and private keys using randomly generated prime numbers[cite: 1].
+* **Message Encryption:** It converts readable text strings into a hidden array of numbers[cite: 1].
+* **Message Decryption:** It uses the private key and reverse math to unlock the numbers and perfectly restore the original text[cite: 1].
+* **Modular Architecture:** The code is split across multiple files and folders (packages) and includes unit tests to ensure the math works correctly.
+* **Interactive Menu:** I built a simple, text-based menu using `while` loops and conditional statements that lets the user easily choose to encrypt, decrypt, or exit.
